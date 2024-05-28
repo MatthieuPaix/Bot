@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         BotTEST
+// @name         Bot TEST
 // @version      0.1
 // @description  Bot qui répond quand quelqu'un a repondu
 // @match        *://*.jklm.fun/*
@@ -65,8 +65,8 @@ const socket_onSetPlayerState = async(playerId, data) => {
     const players = milestone.playerStatesByPeerId
     const elapsedTime = parseInt(data.elapsedTime)/1000
     if(data.hasFoundSource && !alreadyAnswered) answerChallenge()
-    if(data.hasFoundSource && data.elapsedTime < fastestTimeMade){
-        fastestTimeMade = data.elapsedTime
+    if(data.hasFoundSource && elapsedTime < fastestTimeMade){
+        fastestTimeMade = elapsedTime
     }
 }
 
@@ -98,11 +98,9 @@ const socket_onEndChallenge = async(dataChallenge) => {
         console.log('insert dans ' + table +' : ' , answerContent, shortestAnswerGiven ,fastestTimeMade,fastestPlayer)
     }
     else{
-
         if(String(shortestAnswerGiven).length < String(shortestAnswerForCurrentChallenge).length && shortestAnswerGiven != null){ //if new short
             if(fastestTimeMade < fastestTimeForCurrentChallenge) { //if new short & new fastest
                 await update_time_short(contentHash,shortestAnswerGiven, fastestTimeMade ,fastestPlayer)
-                console.log("update time short hash : ", contentHash)
                 messageNewFastestTime = fastestPlayer + " now holds the record with : " + fastestTimeMade + " (new short & new fastest)"
                 console.log(messageNewFastestTime)
             }
@@ -111,7 +109,7 @@ const socket_onEndChallenge = async(dataChallenge) => {
                 messageNewShort = "New short '" + shortestAnswerGiven + "' for prompt : " + contentHash
                 console.log(messageNewShort)
             }
-            console.log('Short registered for prompt ' + contentHash + '  : ' + shortestAnswerGiven)
+            console.log('NEW SHORT registered for prompt ' + contentHash + '  : ' + shortestAnswerGiven)
         }else if(fastestTimeMade < fastestTimeForCurrentChallenge){ // just new fastest
             await update_time(contentHash, fastestTimeMade ,fastestPlayer)
             messageNewFastestTime = fastestPlayer + " now holds the record with : " + fastestTimeMade + " (new fastest)"
@@ -129,8 +127,8 @@ const socket_onChat = async(data, data2) => {
 const socket_onAddPlayer = async(data, data2) => {
     console.log("data : " , data ,"    data2 : ", data2)
     //socket.emit("startRoundNow") (juste pour les garder)
-    //socket.emit("leaveRound")  
-    //socket.emit("joinRound")   
+    //socket.emit("leaveRound")
+    //socket.emit("joinRound")
 }
 
 
