@@ -39,7 +39,7 @@ class DatabaseOperations:
             now = datetime.now()
             path = "../"+ str(now.year) + "-" + str(now.month) + "-" + str(now.day) + ".txt"
             f = open(path, "a")
-            f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  " +query + '\n')
+            f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  NEW DATA : " +query + '\n')
             f.close()
             cursor.execute(f"INSERT OR REPLACE INTO {table} (key, value, short, time, owner) VALUES ('{key}','{value}','{short}',{time},'{owner}')",())
 
@@ -60,7 +60,7 @@ class DatabaseOperations:
             now = datetime.now()
             path = "../"+ str(now.year) + "-" + str(now.month) + "-" + str(now.day) + ".txt"
             f = open(path, "a")
-            f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  " +query + '\n')
+            f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  UPDATE SHORT : " +query + '\n')
             f.close()
             cursor.execute(f"UPDATE {table} SET short='{short}' WHERE key='{key}'", ())
 
@@ -70,7 +70,7 @@ class DatabaseOperations:
             now = datetime.now()
             path = "../"+ str(now.year) + "-" + str(now.month) + "-" + str(now.day) + ".txt"
             f = open(path, "a")
-            f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  " +query + '\n')
+            f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  UPDATE TIME : " +query + '\n')
             f.close()
             cursor.execute(f"UPDATE {table} SET time={time}, owner='{owner}' WHERE key='{key}'", ())
 
@@ -80,6 +80,6 @@ class DatabaseOperations:
             now = datetime.now()
             path = "../"+ str(now.year) + "-" + str(now.month) + "-" + str(now.day) + ".txt"
             f = open(path, "a")
-            f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  " +query + '\n')
+            f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  UDPATE TIME AND SHORT : " +query + '\n')
             f.close()
             cursor.execute(f"UPDATE {table} SET short='{short}', time={time} , owner='{owner}' WHERE key='{key}'", ())
