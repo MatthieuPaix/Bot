@@ -44,7 +44,6 @@ const socket_onSetup = async(data) => {
 }
 
 const socket_onSetDictionary = (rules) => {
-
     switch (rules.dictionaryId){
         case "fr" : table = "dataFR"; break;
         case "en" : table = "dataEN"; break;
@@ -247,7 +246,7 @@ const getAnswer = async() => {
         }
 
     } catch (error) {}
-    console.log('answerForCurrentChallenge : ', answerForCurrentChallenge , "   shortestAnswerForCurrentChallenge : ", shortestAnswerForCurrentChallenge)
-    console.log('fastestTimeForCurrentChallenge : ', fastestTimeForCurrentChallenge, '   fastestPlayerForCurrentChallenge : ' , fastestPlayerForCurrentChallenge)
+    console.log('answer For Current Challenge : ', answerForCurrentChallenge , "   shortest Answer For Current Challenge : ", shortestAnswerForCurrentChallenge)
+    console.log('fastest Time For Current Challenge : ', fastestTimeForCurrentChallenge, '   fastest Player For Current Challenge : ' , fastestPlayerForCurrentChallenge)
     answerChallenge()
 }
