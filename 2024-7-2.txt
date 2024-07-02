@@ -1,0 +1,133 @@
+11:54:27  UPDATE SHORT : UPDATE dataFR SET short='young' WHERE key='-248576339'
+11:54:45  UPDATE SHORT : UPDATE dataFR SET short='antz' WHERE key='2128871401'
+11:55:15  UPDATE SHORT : UPDATE dataFR SET short='prisonbreak' WHERE key='-1831373440'
+11:55:46  UPDATE SHORT : UPDATE dataFR SET short='lost' WHERE key='1836025825'
+11:58:5  UDPATE TIME AND SHORT : UPDATE dataFR SET short='quandelleshabilleenreggae', time=7.508 , owner='zzzzz' WHERE key='-1188476577'
+11:58:11  UDPATE TIME AND SHORT : UPDATE dataFR SET short='startrek', time=1.523 , owner='zzzzz' WHERE key='-1771723519'
+11:58:19  UDPATE TIME AND SHORT : UPDATE dataFR SET short='onepiece', time=1.961 , owner='zzzzz' WHERE key='-1705456978'
+11:58:26  UDPATE TIME AND SHORT : UPDATE dataFR SET short='batman', time=1.96 , owner='zzzzz' WHERE key='701367021'
+11:58:33  UDPATE TIME AND SHORT : UPDATE dataFR SET short='minikeums', time=2.808 , owner='zzzzz' WHERE key='1351452762'
+11:58:41  UPDATE TIME : UPDATE dataFR SET time=2.715, owner='zzzzz' WHERE key='-2009584958'
+11:58:47  UDPATE TIME AND SHORT : UPDATE dataFR SET short='bale', time=1.067 , owner='zzzzz' WHERE key='-1081400706'
+11:58:57  NEW DATA : INSERT OR REPLACE INTO dataFR (key, value, short, time, owner) VALUES ('126013072','Bart Simpson','bart',1.321,'zzzzz')
+11:59:4  UPDATE TIME : UPDATE dataFR SET time=2.078, owner='zzzzz' WHERE key='1177570617'
+11:59:11  UDPATE TIME AND SHORT : UPDATE dataFR SET short='hepburn', time=1.944 , owner='zzzzz' WHERE key='2134220954'
+11:59:18  UDPATE TIME AND SHORT : UPDATE dataFR SET short='sif', time=1.971 , owner='zzzzz' WHERE key='-771206208'
+11:59:25  UPDATE TIME : UPDATE dataFR SET time=2.298, owner='zzzzz' WHERE key='135487690'
+11:59:48  UPDATE TIME : UPDATE dataFR SET time=1.713, owner='zzzzz' WHERE key='744097441'
+11:59:54  UPDATE TIME : UPDATE dataFR SET time=1.987, owner='zzzzz' WHERE key='-1414005817'
+12:0:1  UDPATE TIME AND SHORT : UPDATE dataFR SET short='maggie', time=1.863 , owner='zzzzz' WHERE key='1545285279'
+12:1:11  UDPATE TIME AND SHORT : UPDATE dataFR SET short='sailormoon', time=4.931 , owner='zzzzz' WHERE key='-1577927865'
+12:1:18  UDPATE TIME AND SHORT : UPDATE dataFR SET short='gmod', time=2.026 , owner='zzzzz' WHERE key='144176562'
+12:1:26  UDPATE TIME AND SHORT : UPDATE dataFR SET short='rirejaune', time=2.633 , owner='zzzzz' WHERE key='1172248035'
+12:1:33  UDPATE TIME AND SHORT : UPDATE dataFR SET short='artist', time=2.122 , owner='zzzzz' WHERE key='-381362836'
+12:1:39  UPDATE TIME : UPDATE dataFR SET time=1.236, owner='zzzzz' WHERE key='-137967932'
+12:1:54  NEW DATA : INSERT OR REPLACE INTO dataFR (key, value, short, time, owner) VALUES ('-944564200','Les Affranchis',''+NULL+'',3.294,'zzzzz')
+12:2:12  UPDATE TIME : UPDATE dataFR SET time=6.505, owner='zzzzz' WHERE key='1428088759'
+12:2:21  UDPATE TIME AND SHORT : UPDATE dataFR SET short='windwaker', time=3.584 , owner='zzzzz' WHERE key='-27569779'
+12:2:34  UDPATE TIME AND SHORT : UPDATE dataFR SET short='toutlemondeenparle', time=8.02 , owner='zzzzz' WHERE key='-1619535704'
+12:2:46  UDPATE TIME AND SHORT : UPDATE dataFR SET short='lionetrat', time=6.921 , owner='zzzzz' WHERE key='-380963133'
+12:2:54  UDPATE TIME AND SHORT : UPDATE dataFR SET short='legionnaire', time=3.115 , owner='zzzzz' WHERE key='-1397093720'
+12:3:10  NEW DATA : INSERT OR REPLACE INTO dataFR (key, value, short, time, owner) VALUES ('1017428677','Crash Bandicoot','crashbandicoot',2.654,'zzzzz')
+12:3:17  UPDATE TIME : UPDATE dataFR SET time=2.373, owner='zzzzz' WHERE key='-136470334'
+12:3:25  UDPATE TIME AND SHORT : UPDATE dataFR SET short='mome', time=3.46 , owner='zzzzz' WHERE key='-2027913236'
+12:3:33  UPDATE TIME : UPDATE dataFR SET time=1.83, owner='zzzzz' WHERE key='-1118698597'
+12:3:39  UPDATE TIME : UPDATE dataFR SET time=2.352, owner='zzzzz' WHERE key='558545851'
+12:23:56  UDPATE TIME AND SHORT : UPDATE dataFR SET short='roland', time=9.735 , owner='zzzzz' WHERE key='-1895871739'
+12:24:2  UDPATE TIME AND SHORT : UPDATE dataFR SET short='raoult', time=1.449 , owner='zzzzz' WHERE key='-915081777'
+12:24:17  NEW DATA : INSERT OR REPLACE INTO dataFR (key, value, short, time, owner) VALUES ('1988499202','SE7EN','sept',1.285,'zzzzz')
+13:56:15  UPDATE TIME : UPDATE dataFR SET time=1.609, owner='zzzzz' WHERE key='592702498'
+13:57:15  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1083605994','Madagascar',''+NULL+'',2.246,'zzzzz')
+13:57:25  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1122735648','Yémen','yemen',4.221,'zzzzz')
+13:57:49  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1963436350','Lesotho','lesotho',2.433,'zzzzz')
+13:57:59  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1160604507','Australie',''+NULL+'',1.798,'zzzzz')
+14:5:40  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('770699729','Monaco','monaco',2.656,'zzzzz')
+14:5:56  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1549714561','Bahreïn',''+NULL+'',4.748,'zzzzz')
+14:6:16  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('553250132','Bhoutan','bhutan',1.755,'zzzzz')
+14:6:33  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('681819779','Vietnam','vietnam',4.059,'zzzzz')
+14:6:59  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-937615395','Éthiopie',''+NULL+'',1.953,'zzzzz')
+14:7:9  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1947998725','République de Trinité-et-Tobago',''+NULL+'',4.026,'zzzzz')
+14:7:19  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1820262910','République du Turkménistan',''+NULL+'',2.597,'zzzzz')
+14:7:29  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('768761785','Transnistrie',''+NULL+'',4.448,'zzzzz')
+14:7:52  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-766206157','Sri Lanka',''+NULL+'',2.647,'zzzzz')
+14:8:9  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1948046291','Burkina Faso',''+NULL+'',4.33,'zzzzz')
+14:8:19  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-318901808','El Salvador',''+NULL+'',4.079,'zzzzz')
+14:9:0  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1965976121','Kosovo','kosovo',2.918,'zzzzz')
+14:9:26  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1256691282','Indonésie',''+NULL+'',3.611,'zzzzz')
+14:9:44  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1841488038','La république du Bénin','benin',2.149,'zzzzz')
+14:9:54  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-758155998','Chili','chile',2.156,'zzzzz')
+14:10:4  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-794374688','Botswana',''+NULL+'',1.573,'zzzzz')
+14:10:22  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('53941716','Cameroun',''+NULL+'',2.522,'zzzzz')
+14:10:32  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1745083874','Kiribati',''+NULL+'',2.603,'zzzzz')
+14:10:42  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-2011528793','Danemark','denmark',1.721,'zzzzz')
+14:10:52  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('4676308','Macédoine du Nord',''+NULL+'',2.871,'zzzzz')
+14:11:2  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1734524395','Egypte','egypt',2.402,'zzzzz')
+14:11:28  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-742130997','Terre Marie-Byrd',''+NULL+'',3.097,'zzzzz')
+14:11:48  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-794196537','Djibouti',''+NULL+'',1.36,'zzzzz')
+14:11:58  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1534648873','Palaos','palau',2.927,'zzzzz')
+14:12:18  UPDATE TIME : UPDATE dataFlags SET time=2.334, owner='zzzzz' WHERE key='1466963001'
+14:12:28  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('167603959','Qatar','qatar',1.304,'zzzzz')
+14:12:38  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1273797786','Corée du Nord',''+NULL+'',1.823,'zzzzz')
+14:12:48  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('942650854','Guinée-Bissau',''+NULL+'',1.905,'zzzzz')
+14:12:58  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1013276822','État des Tuvalu','tuvalu',2.214,'zzzzz')
+14:13:8  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1541984718','Algérie','algeria',3.385,'zzzzz')
+14:13:19  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-871843581','Tibet','tibet',2.094,'zzzzz')
+14:13:32  UPDATE TIME : UPDATE dataFlags SET time=1.57, owner='zzzzz' WHERE key='1378276917'
+14:13:42  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1705221633','Allemagne','germany',2.984,'zzzzz')
+14:14:0  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1573877482','Colombie',''+NULL+'',1.671,'zzzzz')
+14:14:10  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('471067386','République d'Abkhazie',''+NULL+'',2.001,'zzzzz')
+14:14:20  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('79832251','Tunisie','tunisie',1.798,'zzzzz')
+14:14:50  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('592702498','Moldavie','moldova',2.085,'zzzzz')
+14:15:11  UPDATE SHORT : UPDATE dataFlags SET short='japan' WHERE key='1214969289'
+14:15:19  UPDATE SHORT : UPDATE dataFlags SET short='grenada' WHERE key='-1513646866'
+14:15:31  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1610888106','Jordanie','jordan',NULL,'zzzzz')
+14:15:51  UPDATE SHORT : UPDATE dataFlags SET short='kenya' WHERE key='1880872753'
+14:16:1  UPDATE TIME : UPDATE dataFlags SET time=1.415, owner='zzzzz' WHERE key='1135960187'
+14:16:11  UDPATE TIME AND SHORT : UPDATE dataFlags SET short='england', time=1.442 , owner='zzzzz' WHERE key='2146416770'
+14:16:21  UPDATE TIME : UPDATE dataFlags SET time=1.862, owner='zzzzz' WHERE key='274214132'
+14:16:31  UPDATE SHORT : UPDATE dataFlags SET short='belarus' WHERE key='163549578'
+14:17:1  UPDATE SHORT : UPDATE dataFlags SET short='taiwan' WHERE key='-236566688'
+14:17:31  UPDATE SHORT : UPDATE dataFlags SET short='ireland' WHERE key='-1416234437'
+14:17:41  UDPATE TIME AND SHORT : UPDATE dataFlags SET short='eritrea', time=1.49 , owner='zzzzz' WHERE key='-551896898'
+14:17:51  UDPATE TIME AND SHORT : UPDATE dataFlags SET short='russie', time=1.711 , owner='zzzzz' WHERE key='1849446629'
+14:18:1  UDPATE TIME AND SHORT : UPDATE dataFlags SET short='austria', time=0.953 , owner='zzzzz' WHERE key='1831503769'
+14:18:49  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('985128050','Belize','belize',3.407,'zzzzz')
+14:18:59  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('526713850','Malawi','malawi',1.056,'zzzzz')
+14:19:25  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('8994089','Îles Cook',''+NULL+'',1.132,'zzzzz')
+14:19:45  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1404448779','Andorre','andorra',1.997,'zzzzz')
+14:19:55  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1461240600','Écosse','ecosse',1.181,'zzzzz')
+14:20:6  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('251859995','Haïti','haiti',NULL,'zzzzz')
+14:20:15  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-956966909','Koweït','kuwait',1.728,'zzzzz')
+14:20:32  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1246294045','Nouvelle-Zélande',''+NULL+'',2.057,'zzzzz')
+14:20:42  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-695951392','Kazakhstan',''+NULL+'',2.642,'zzzzz')
+14:26:52  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-226253121','Dominique',''+NULL+'',4.779,'zzzzz')
+14:28:12  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1292293083','Tanzanie','tanzania',2.28,'zzzzz')
+14:36:32  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1831503769','Autriche','austria',2.851,'zzzzz')
+14:36:49  UPDATE TIME : UPDATE dataFlags SET time=1.417, owner='zzzzz' WHERE key='-1404448779'
+14:37:8  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1069185488','Les Maldives',''+NULL+'',1.297,'zzzzz')
+14:37:38  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-235224781','Hongrie','hungary',3.109,'zzzzz')
+14:37:48  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1610888106','Jordanie','jordan',3.968,'zzzzz')
+14:37:58  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('567307022','Costa Rica',''+NULL+'',2.287,'zzzzz')
+14:38:9  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('79832251','Tunisie','tunisie',2.083,'zzzzz')
+14:39:9  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1225619715','Gibraltar',''+NULL+'',2.521,'zzzzz')
+14:47:31  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1603969640','Vatican',''+NULL+'',NULL,'None')
+14:47:41  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-531386334','États fédérés de Micronésie',''+NULL+'',NULL,'None')
+14:48:1  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('274214132','Hong kong',''+NULL+'',NULL,'None')
+14:48:11  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1351160049','République populaire de Lougansk',''+NULL+'',NULL,'None')
+14:48:31  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-2025760501','Roumanie',''+NULL+'',NULL,'None')
+14:49:21  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1603882357','Norvège',''+NULL+'',NULL,'None')
+14:49:31  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1409777749','Lettonie',''+NULL+'',NULL,'None')
+14:50:1  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('20269103','Monténégro',''+NULL+'',NULL,'None')
+14:50:11  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1063483376','Géorgie',''+NULL+'',NULL,'None')
+14:50:31  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1481746690','Mons',''+NULL+'',NULL,'None')
+14:50:51  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-226138725','Turquie',''+NULL+'',NULL,'None')
+14:51:24  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1068859419','Slovaquie',''+NULL+'',NULL,'None')
+14:51:34  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-392902055','Bulgarie',''+NULL+'',NULL,'None')
+14:52:14  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-1993441373','Suriname',''+NULL+'',NULL,'None')
+14:52:25  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('-977506635','Zimbabwe',''+NULL+'',NULL,'None')
+14:52:50  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1741473874','Pologne',''+NULL+'',NULL,'None')
+14:53:25  NEW DATA : INSERT OR REPLACE INTO dataFlags (key, value, short, time, owner) VALUES ('1843711741','Luxembourg',''+NULL+'',NULL,'None')
+14:56:5  UPDATE TIME : UPDATE dataFR SET time=1.613, owner='zzzzz' WHERE key='-551896898'
+14:56:27  UPDATE TIME : UPDATE dataFR SET time=0.93, owner='zzzzz' WHERE key='-1122889371'
+14:56:50  UPDATE TIME : UPDATE dataFR SET time=1.201, owner='zzzzz' WHERE key='-1446715842'
+14:57:11  UPDATE TIME : UPDATE dataFR SET time=1.382, owner='zzzzz' WHERE key='-120192671'

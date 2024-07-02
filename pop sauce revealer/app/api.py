@@ -21,9 +21,10 @@ def create_app() -> Flask:
         short = data.get('short')
         time = data.get('time')
         owner = data.get('owner')
-                
-        owner = owner.replace("'", "\'")
-        value = value.replace("'", "\'")
+        
+        if((str(owner) != '') or (str(value) != '')) :
+            owner = str(owner).replace("'", "\'")
+            value = str(value).replace("'", "\'")
 
         print("data dans retrieve data : ", data)
         if not key or not value:

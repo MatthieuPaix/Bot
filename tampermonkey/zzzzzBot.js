@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         zzzzzBot
+// @name         zzzzzbot
 // @version      0.1
 // @description  Bot qui répond quand quelqu'un a repondu
 // @match        *://*.jklm.fun/*
@@ -35,19 +35,28 @@ var messageNewShort
 
 
 const socket_onSetup = async(data) => {
-    switch (data.rules.dictionaryId.value){
-        case "fr" : table = "dataFR"; break;
-        case "en" : table = "dataEN"; break;
-        case "es" : table = "dataES"; break;
+    if(data.rules.tagOps.length==1 && data.rules.tagOps[0].tag == "Drapeaux"){
+        table = "dataFlags";
+    }else{
+        switch (data.rules.dictionaryId){
+            case "fr" : table = "dataFR"; break;
+            case "en" : table = "dataEN"; break;
+            case "es" : table = "dataES"; break;
+        }
     }
     console.log("Table has been set to : ", table)
 }
 
 const socket_onSetDictionary = (rules) => {
-    switch (rules.dictionaryId){
-        case "fr" : table = "dataFR"; break;
-        case "en" : table = "dataEN"; break;
-        case "es" : table = "dataES"; break;
+    console.log("rules : ",rules)
+    if(rules.tagOps.length==1 && rules.tagOps[0].tag == "Drapeaux"){
+        table = "dataFlags";
+    }else{
+        switch (rules.dictionaryId){
+            case "fr" : table = "dataFR"; break;
+            case "en" : table = "dataEN"; break;
+            case "es" : table = "dataES"; break;
+        }
     }
     console.log("Table has been changed to : ", table)
 }
