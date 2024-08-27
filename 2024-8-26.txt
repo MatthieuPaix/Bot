@@ -1,0 +1,15 @@
+11:38:18  NEW DATA : INSERT OR REPLACE INTO dataFR (key, value, short, time, owner) VALUES ('-2116476081','Quebec','quebec',1.936,'zzzzz')
+11:38:34  NEW DATA : INSERT OR REPLACE INTO dataFR (key, value, short, time, owner) VALUES ('-770743436','Lower Saxony',''+NULL+'',NULL,'None')
+11:41:13  UPDATE TIME : UPDATE dataEN SET time=9.516, owner='zzzzz' WHERE key='1700950371'
+11:42:48  UPDATE TIME : UPDATE dataEN SET time=3.05, owner='zzzzz' WHERE key='-1183150265'
+11:46:33  UDPATE TIME AND SHORT : UPDATE dataEN SET short='trentinosouthtyrol', time=9.441 , owner='zzzzz' WHERE key='735564493'
+11:46:42  UPDATE TIME : UPDATE dataEN SET time=4.579, owner='zzzzz' WHERE key='637245764'
+11:46:50  UPDATE TIME : UPDATE dataEN SET time=3.469, owner='zzzzz' WHERE key='-1403480234'
+11:47:38  UPDATE TIME : UPDATE dataEN SET time=3.921, owner='zzzzz' WHERE key='-1651483596'
+11:49:43  UPDATE TIME : UPDATE dataEN SET time=7.452, owner='zzzzz' WHERE key='-1165923281'
+11:50:20  UDPATE TIME AND SHORT : UPDATE dataEN SET short='flanders', time=1.853 , owner='zzzzz' WHERE key='-785374509'
+11:51:8  UPDATE TIME : UPDATE dataEN SET time=4.07, owner='zzzzz' WHERE key='360701825'
+12:7:19  UPDATE TIME : UPDATE dataEN SET time=4.754, owner='zzzzz' WHERE key='-796984766'
+12:8:58  UPDATE TIME : UPDATE dataEN SET time=3.664, owner='zzzzz' WHERE key='-1799350630'
+12:14:43  UPDATE TIME : UPDATE dataEN SET time=1.249, owner='zzzzz' WHERE key='1830174350'
+12:15:25  UPDATE TIME : UPDATE dataEN SET time=7.377, owner='zzzzz' WHERE key='1843588889'
