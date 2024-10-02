@@ -1,0 +1,6 @@
+9:21:6  UPDATE SHORT : UPDATE dataEN SET short='valenciancommunity' WHERE key='-1022667789'
+9:59:22  UPDATE SHORT : UPDATE dataEN SET short='wallis et futuna' WHERE key='1913568931'
+10:4:45  UPDATE SHORT : UPDATE dataEN SET short='murcia' WHERE key='-1681652967'
+10:11:13  UPDATE SHORT : UPDATE dataEN SET short='newsouthwales' WHERE key='-1665742748'
+10:32:52  UPDATE SHORT : UPDATE dataEN SET short='appenzellausserrhoden' WHERE key='1916236871'
+10:34:34  UPDATE SHORT : UPDATE dataEN SET short='wallisetfutuna' WHERE key='1913568931'

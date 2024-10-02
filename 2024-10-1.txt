@@ -1,0 +1,18 @@
+15:56:46  UPDATE SHORT : UPDATE dataEN SET short='ibaleares' WHERE key='143739727'
+16:0:30  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('68637113','Telemark',''+NULL+'',NULL,'None')
+16:1:2  UPDATE SHORT : UPDATE dataEN SET short='northholland' WHERE key='-290132335'
+16:2:50  UPDATE SHORT : UPDATE dataEN SET short='castillalamancha' WHERE key='-491615318'
+16:4:58  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('-1318038333','Møre og Romsdal',''+NULL+'',NULL,'None')
+16:8:1  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('-2122263847','Trøndelag',''+NULL+'',NULL,'None')
+16:9:21  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('1693246923','Finnmark',''+NULL+'',NULL,'None')
+16:12:39  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('1763771019','Lillehammer',''+NULL+'',NULL,'None')
+16:19:35  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('698669669','Troms',''+NULL+'',NULL,'None')
+16:21:11  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('-1087239714','Vestfold',''+NULL+'',NULL,'None')
+16:21:43  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('1298202275','Oslo',''+NULL+'',NULL,'None')
+16:23:15  UPDATE SHORT : UPDATE dataEN SET short='castiandleon' WHERE key='1863921682'
+16:31:17  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('1783750067','Innlandet',''+NULL+'',NULL,'None')
+16:36:1  UPDATE SHORT : UPDATE dataEN SET short='paca' WHERE key='334713993'
+16:40:10  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('1386289134','Agder',''+NULL+'',NULL,'None')
+16:45:40  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('238241212','Rogaland',''+NULL+'',NULL,'None')
+16:48:37  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('1342290259','Bergen',''+NULL+'',NULL,'None')
+16:55:26  NEW DATA : INSERT OR REPLACE INTO dataEN (key, value, short, time, owner) VALUES ('330768239','Stavanger',''+NULL+'',NULL,'None')
