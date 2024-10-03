@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         zzzzzbot
+// @name         BotDevChat
 // @version      0.1
 // @description  Bot qui répond quand quelqu'un a repondu
 // @match        *://*.jklm.fun/*
@@ -20,6 +20,26 @@ const QUERY_SELECTORS = {
     answerWrapper: '.challengeResult',
     input: '.round.guessing input'
 };
+
+const badgesByRole = {
+  leader: { icon: '👑', text: getText('Party leader', 'role.leader') },
+  moderator: { icon: '⚔️', text: getText('Moderator', 'role.moderator') },
+  creator: { icon: '🎪', text: getText("JKLM.FUN's creator", 'role.creator') },
+  staff: { icon: '⭐', text: getText('JKLM.FUN staff', 'role.staff') },
+  bot: { icon: '🤖', text: getText('JKLM.FUN BOT', 'role.bot') },
+  banned: { icon: '⛔', text: getText('Banned', 'role.banned') },
+}
+// Chat
+const chatButton = $('.sidebar .tabs .chat');
+const chatTab = $('.sidebar > .chat');
+const chatLog = $('.sidebar .chat .log');
+const setChatFilterButton = $('.sidebar .chat .setChatFilter');
+const chatTextArea = $('.chat .input textarea');
+
+let chatMessageCount = 0;
+const maxChatMessageCount = 200;
+
+const chatCompletions = [];
 
 var table = "dataFR"
 var answerForCurrentChallenge
@@ -63,11 +83,14 @@ const socket_onSetDictionary = (rules) => {
 
 
 const socket_onStartChallenge = async(data, endtime) => {
+    socket.emit("chat", "test");
     alreadyAnswered = false
     await getAnswer() // resetting answerForCurrentChallenge, shortestAnswerForCurrentChallenge, fastestTimeForCurrentChallenge fastestPlayerForCurrentChallenge
     alreadyAnswered = false
     console.log("------------------startChallenge------------------")
     console.log("answer : " , answerForCurrentChallenge, " short : ", shortestAnswerForCurrentChallenge)
+    console.log("chat test : ",answerForCurrentChallenge)
+    console.log("chat test finnn ")
 }
 
 const socket_onSetPlayerState = async(playerId, data) => {
@@ -128,9 +151,26 @@ const socket_onEndChallenge = async(dataChallenge) => {
     }
 }
 
-const socket_onChat = async(data, data2) => {
-    console.log("test lecture Chat AAAAA :")
-    console.log(data, "....... ", data2)
+function socket_onChat(authorProfile, text, customProperties = {}) {
+    console.log("test in socket on chat");
+  if (settings.chatFilter.length > 0)
+    text = text
+      .split(' ')
+      .map(x =>
+        settings.chatFilter.includes(x.toLowerCase())
+          ? '■'.repeat(x.length)
+          : x,
+      )
+      .join(' ');
+  if (authorProfile.peerId !== selfPeerId && roomEntry.isPublic)
+    text = text
+      .split(' ')
+      .map(x =>
+        publicChatFilter.includes(x.toLowerCase()) ? '■'.repeat(x.length) : x,
+      )
+      .join(' ');
+
+  appendToChat(authorProfile, text, customProperties);
 }
 
 const socket_onAddPlayer = async(data, data2) => {
@@ -148,6 +188,7 @@ socket.on("setPlayerState", socket_onSetPlayerState)
 socket.on("endChallenge", socket_onEndChallenge);
 socket.on("setup", socket_onSetup);
 socket.on("setDictionary", socket_onSetDictionary);
+
 
 
 const GREEN_BACKGROUND = "background: #85D492; color: #000";

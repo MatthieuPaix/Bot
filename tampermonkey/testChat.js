@@ -89,7 +89,7 @@ const socket_onStartChallenge = async(data, endtime) => {
     console.log("------------------startChallenge------------------")
     console.log("answer : " , answerForCurrentChallenge, " short : ", shortestAnswerForCurrentChallenge)
     console.log("chat test : ",answerForCurrentChallenge)
-    socket.emit("chat", answerForCurrentChallenge);
+    socket.emit("chat", "test");
     console.log("chat test finnn ")
 }
 
@@ -188,15 +188,7 @@ socket.on("setPlayerState", socket_onSetPlayerState)
 socket.on("endChallenge", socket_onEndChallenge);
 socket.on("setup", socket_onSetup);
 socket.on("setDictionary", socket_onSetDictionary);
-socket.on("chat", socket_onChat);
 
-
-
-const GREEN_BACKGROUND = "background: #85D492; color: #000";
-const RED_BACKGROUND = "background: #D68280; color: #000";
-const BLUE_BACKGROUND = "background: #80A5D6; color: #000";
-
-const UNKNOWN_ANSWER_TEXT = 'Unknown answer';
 
 const hashCode = (str) => [...str].reduce((hash, char) => Math.imul(31, hash) + char.charCodeAt(0) | 0, 0);
 

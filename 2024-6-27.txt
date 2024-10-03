@@ -1,1 +1,0 @@
-9:35:32  UPDATE SHORT : UPDATE dataFR SET short='guinea' WHERE key='-120192671'
