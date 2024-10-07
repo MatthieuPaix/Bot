@@ -1,0 +1,1 @@
+15:4:1  NEW DATA : INSERT OR REPLACE INTO dataFR (key, value, short, time, owner) VALUES ('-1618218109','Aosta Valley',''+NULL+'',NULL,'None')

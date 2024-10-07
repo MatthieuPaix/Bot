@@ -83,3 +83,8 @@ class DatabaseOperations:
             f.write(str(now.hour) + ":" + str(now.minute)+ ":" + str(now.second) + "  UDPATE TIME AND SHORT : " +query + '\n')
             f.close()
             cursor.execute(f"UPDATE {table} SET short='{short}', time={time} , owner='{owner}' WHERE key='{key}'", ())
+
+    def get_previous_best(self, table, key):
+        with DatabaseConnection(self.config.DATABASE_PATH / self.config.DATABASE_NAME) as cursor:
+            cursor.execute(f"SELECT value, short, time, owner FROM {table} WHERE key='{key}'", ())
+            return cursor.fetchone()
