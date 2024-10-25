@@ -1,0 +1,1 @@
+13:10:22  UPDATE SHORT : UPDATE dataEN SET short='ingushetia' WHERE key='-385394886'

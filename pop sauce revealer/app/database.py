@@ -88,3 +88,18 @@ class DatabaseOperations:
         with DatabaseConnection(self.config.DATABASE_PATH / self.config.DATABASE_NAME) as cursor:
             cursor.execute(f"SELECT value, short, time, owner FROM {table} WHERE key='{key}'", ())
             return cursor.fetchone()
+
+    def get_top_by_key(self, table, player, key):
+        with DatabaseConnection(self.config.DATABASE_PATH / self.config.DATABASE_NAME) as cursor:
+            cursor.execute(f"SELECT * FROM {table} WHERE player = '{player}' AND promptKey = '{key}' ORDER BY CAST(time AS REAL) LIMIT 5;", ())
+            return cursor.fetchone()
+        
+    def get_top_by_key(self, table, player, key):
+        with DatabaseConnection(self.config.DATABASE_PATH / self.config.DATABASE_NAME) as cursor:
+            cursor.execute(f"SELECT * FROM {table} WHERE player = '{player}' AND promptKey = '{key}' ORDER BY CAST(time AS REAL) LIMIT 5;", ())
+            return cursor.fetchone()
+        
+    def get_top(self, table):
+        with DatabaseConnection(self.config.DATABASE_PATH / self.config.DATABASE_NAME) as cursor:
+            cursor.execute(f"SELECT * FROM {table} ORDER BY CAST(time AS REAL) LIMIT 10;", ())
+            return cursor.fetchone()
